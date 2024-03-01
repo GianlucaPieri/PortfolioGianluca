@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+h1{
+    font-family: "Anta", sans-serif;
+}
+
+
+.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out; /* Aggiungi una transizione per rendere l'animazione più fluida */
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s ease-in-out; /* Ritarda la visibilità per consentire la transizione */
+}
